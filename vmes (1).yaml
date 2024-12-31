@@ -1,0 +1,18 @@
+proxies:
+- name: premium(17-01-2025)
+  server: quiz.int.vidio.com
+  type: vmess
+  port: 443
+  uuid: 9ee28afa-ba1e-5620-8dd5-345180bf39d5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: xra-sgdo001.tunggure.buzz
+  network: ws
+  ws-opts:
+    path: /xrayvmess
+    headers:
+      Host: xra-sgdo001.tunggure.buzz
+  udp: true
+interface-name: wwan0

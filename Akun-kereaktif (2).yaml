@@ -1,0 +1,16 @@
+proxies:
+- name: XL (04-01-2025)
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: a9916d09-bae4-44f2-8c51-4a8092d1112d
+  network: ws
+  sni: tlkm1.servercloudvps.web.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+    headers:
+        Host: tlkm1.servercloudvps.web.id
+  interface-name: wwan0
+
