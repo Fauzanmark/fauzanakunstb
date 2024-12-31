@@ -1,5 +1,5 @@
 proxies:
-- name: XL (04-01-2025)
+- name: XLgithub (04-01-2025)
   server: quiz.int.vidio.com
   port: 443
   type: trojan
